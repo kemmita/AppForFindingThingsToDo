@@ -1,0 +1,11 @@
+C:\Users\16512\source\repos\React_Core_App\Persistence\bin\Debug\netcoreapp2.2\Persistence.deps.json
+C:\Users\16512\source\repos\React_Core_App\Persistence\bin\Debug\netcoreapp2.2\Persistence.dll
+C:\Users\16512\source\repos\React_Core_App\Persistence\bin\Debug\netcoreapp2.2\Persistence.pdb
+C:\Users\16512\source\repos\React_Core_App\Persistence\bin\Debug\netcoreapp2.2\Domain.dll
+C:\Users\16512\source\repos\React_Core_App\Persistence\bin\Debug\netcoreapp2.2\Domain.pdb
+C:\Users\16512\source\repos\React_Core_App\Persistence\obj\Debug\netcoreapp2.2\Persistence.csprojAssemblyReference.cache
+C:\Users\16512\source\repos\React_Core_App\Persistence\obj\Debug\netcoreapp2.2\Persistence.AssemblyInfoInputs.cache
+C:\Users\16512\source\repos\React_Core_App\Persistence\obj\Debug\netcoreapp2.2\Persistence.AssemblyInfo.cs
+C:\Users\16512\source\repos\React_Core_App\Persistence\obj\Debug\netcoreapp2.2\Persistence.csproj.CopyComplete
+C:\Users\16512\source\repos\React_Core_App\Persistence\obj\Debug\netcoreapp2.2\Persistence.dll
+C:\Users\16512\source\repos\React_Core_App\Persistence\obj\Debug\netcoreapp2.2\Persistence.pdb

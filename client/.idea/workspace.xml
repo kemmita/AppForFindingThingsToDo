@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/app/stores/userStore.ts" line="215" />
+    <bookmark url="file://$PROJECT_DIR$/src/features/Profiles/Panes/PhotosPane.tsx" line="37" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5f00ca4-7ece-4976-bb27-51c7ff4ada90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/banana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValueItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Interfaces/activity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Interfaces/profile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Interfaces/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Interfaces/userActivity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/agent.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/form/DateInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/form/ErrorMessage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/form/SelectInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/form/TextAreaInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/form/TextInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/modals/ModalContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/photoUpload/PhotoUploadWidget.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/photoUpload/PhotoWidgetCropper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/photoUpload/PhotoWidgetDropZone.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout/LoadingComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout/PrivateRoute.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout/WhatTheHeck.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/stores/activityStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/stores/commonStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/stores/modalStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/stores/rootStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/stores/userStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Profiles/Panes/AboutPane.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Profiles/Panes/AboutPaneEditFalse.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Profiles/Panes/AboutPaneEditTrue.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Profiles/Panes/ActivitiesPane.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Profiles/Panes/PhotosPane.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Profiles/ProfileCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Profiles/ProfileContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Profiles/ProfileFollowings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Profiles/ProfileHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Profiles/ProfilePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/activities/dashboard/ActivityDashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/activities/dashboard/ActivityFilters.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/activities/dashboard/ActivityList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/activities/dashboard/ActivityListItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/activities/dashboard/ActivityListItemPlaceholder.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/activities/details/ActivityDetailedChat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/activities/details/ActivityDetailedHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/activities/details/ActivityDetailedInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/activities/details/ActivityDetailedSidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/activities/details/ActivityDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/activities/form/ActivityForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/home/HomePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/nav/NavBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/user/LoginForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/user/RegisterForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typings-custom/react-cropper.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typings-custom/react-widgets-date-fns.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/stores/activityStore.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/api/agent.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/layout/App.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="43" column="41" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/layout/PrivateRoute.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/stores/userStore.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/activities/form/ActivityForm.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+        <option value="React TypeScript Functional Component" />
+        <option value="TypeScript File" />
+        <option value="Mobx TS" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>types</find>
+      <find>@types/react-cropper</find>
+      <find>cropper</find>
+      <find>get</find>
+      <find>getCropp</find>
+      <find>cropp</find>
+      <find>settarget</find>
+      <find>not</find>
+      <find>ActivityFormValues</find>
+      <find>cre</find>
+      <find>loada</find>
+      <find>zs</find>
+      <find>stop</find>
+      <find>stopHubConnection</find>
+      <find>getus</find>
+      <find>ProfilePage</find>
+      <find>getFollowDate</find>
+      <find>getcurrent</find>
+      <find>getcurre</find>
+      <find>activitiesbyda</find>
+      <find>ActivityDetails</find>
+      <find>Pas</find>
+      <find>joined</find>
+      <find>toast</find>
+      <find>toas</find>
+      <find>loading cool</find>
+      <find>index.html</find>
+      <find>isLoggedIn</find>
+      <find>time.</find>
+      <find>isL</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>TextAreaInput</replace>
+      <replace>SelectInput</replace>
+      <replace>DateInput</replace>
+      <replace>ProfilePage</replace>
+      <replace>userStore</replace>
+      <replace>PhotosPane</replace>
+      <replace>setTarget</replace>
+      <replace>ActivitiesPane</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/src/app/Interfaces/user.ts" />
+        <option value="$PROJECT_DIR$/src/app/stores/commonStore.ts" />
+        <option value="$PROJECT_DIR$/src/index.tsx" />
+        <option value="$PROJECT_DIR$/src/app/stores/rootStore.ts" />
+        <option value="$PROJECT_DIR$/src/app/stores/modalStore.ts" />
+        <option value="$PROJECT_DIR$/src/app/common/modals/ModalContainer.tsx" />
+        <option value="$PROJECT_DIR$/src/app/common/form/Errormessage.tsx" />
+        <option value="$PROJECT_DIR$/src/app/common/form/ErrorMessage.tsx" />
+        <option value="$PROJECT_DIR$/src/features/home/HomePage.tsx" />
+        <option value="$PROJECT_DIR$/src/features/user/LoginForm.tsx" />
+        <option value="$PROJECT_DIR$/src/features/activities/dashboard/ActivityList.tsx" />
+        <option value="$PROJECT_DIR$/src/app/Interfaces/At.ts" />
+        <option value="$PROJECT_DIR$/src/features/user/RegisterForm.tsx" />
+        <option value="$PROJECT_DIR$/src/app/Interfaces/Profile.ts" />
+        <option value="$PROJECT_DIR$/src/features/activities/dashboard/ActivityListItem.tsx" />
+        <option value="$PROJECT_DIR$/src/features/activities/details/ActivityDetailedHeader.tsx" />
+        <option value="$PROJECT_DIR$/src/features/nav/NavBar.tsx" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/typings-custom/react-cropper.d.ts" />
+        <option value="$PROJECT_DIR$/src/app/common/photoUpload/PhotoWidgetCropper.tsx" />
+        <option value="$PROJECT_DIR$/src/features/Profiles/Panes/PhotosPane.tsx" />
+        <option value="$PROJECT_DIR$/src/app/common/photoUpload/PhotoWidgetDropZone.tsx" />
+        <option value="$PROJECT_DIR$/src/app/common/photoUpload/PhotoUploadWidget.tsx" />
+        <option value="$PROJECT_DIR$/src/features/Profiles/Panes/AboutPaneEditFalse.tsx" />
+        <option value="$PROJECT_DIR$/src/features/Profiles/Panes/AboutPaneEditTrue.tsx" />
+        <option value="$PROJECT_DIR$/src/features/activities/details/ActivityDetails.tsx" />
+        <option value="$PROJECT_DIR$/src/app/Interfaces/attendee.ts" />
+        <option value="$PROJECT_DIR$/src/features/activities/details/ActivityDetailedSidebar.tsx" />
+        <option value="$PROJECT_DIR$/src/features/Profiles/Panes/AboutPane.tsx" />
+        <option value="$PROJECT_DIR$/src/features/Profiles/ProfileHeader.tsx" />
+        <option value="$PROJECT_DIR$/src/features/activities/details/ActivityDetailedChat.tsx" />
+        <option value="$PROJECT_DIR$/src/app/Interfaces/profile.ts" />
+        <option value="$PROJECT_DIR$/src/features/Profiles/ProfileCard.tsx" />
+        <option value="$PROJECT_DIR$/src/features/Profiles/ProfileFollowings.tsx" />
+        <option value="$PROJECT_DIR$/src/features/Profiles/ProfilePage.tsx" />
+        <option value="$PROJECT_DIR$/src/app/Interfaces/activity.ts" />
+        <option value="$PROJECT_DIR$/src/features/activities/dashboard/ActivityFilters.tsx" />
+        <option value="$PROJECT_DIR$/src/app/Interfaces/userActivity.ts" />
+        <option value="$PROJECT_DIR$/src/features/Profiles/ProfileContent.tsx" />
+        <option value="$PROJECT_DIR$/src/features/Profiles/Panes/ActivitiesPane.tsx" />
+        <option value="$PROJECT_DIR$/src/app/stores/userStore.ts" />
+        <option value="$PROJECT_DIR$/src/features/activities/dashboard/ActivityListItemPlaceholder.tsx" />
+        <option value="$PROJECT_DIR$/src/features/activities/dashboard/ActivityDashboard.tsx" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/app/layout/PrivateRoute.tsx" />
+        <option value="$PROJECT_DIR$/src/app/api/agent.ts" />
+        <option value="$PROJECT_DIR$/src/app/layout/App.tsx" />
+        <option value="$PROJECT_DIR$/src/features/activities/form/ActivityForm.tsx" />
+        <option value="$PROJECT_DIR$/src/app/stores/activityStore.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/client.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="307" />
+    <option name="y" value="-8" />
+    <option name="width" value="996" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="stores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="typings-custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/index.html" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\16512\source\repos\React_Core_App\client\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\16512\source\repos\React_Core_App\client\public\assets" />
+      <recent name="C:\Users\16512\source\repos\React_Core_App\client\src\app\layout" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/client/public/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5f00ca4-7ece-4976-bb27-51c7ff4ada90" name="Default Changelist" comment="" />
+      <created>1571498536378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571498536378</updated>
+      <workItem from="1571498539106" duration="6429000" />
+      <workItem from="1571528742769" duration="1341000" />
+      <workItem from="1572110802885" duration="863000" />
+      <workItem from="1572132780723" duration="2351000" />
+      <workItem from="1572187623630" duration="6460000" />
+      <workItem from="1572398481154" duration="1447000" />
+      <workItem from="1572478846519" duration="3503000" />
+      <workItem from="1572569885533" duration="6941000" />
+      <workItem from="1572655619308" duration="4011000" />
+      <workItem from="1572709640939" duration="7833000" />
+      <workItem from="1572739365903" duration="4806000" />
+      <workItem from="1572921797291" duration="419000" />
+      <workItem from="1573004957650" duration="1848000" />
+      <workItem from="1573091930979" duration="2026000" />
+      <workItem from="1573409930416" duration="4118000" />
+      <workItem from="1573522499293" duration="1547000" />
+      <workItem from="1573608461388" duration="1737000" />
+      <workItem from="1573778789379" duration="2422000" />
+      <workItem from="1573782195409" duration="1331000" />
+      <workItem from="1573870700777" duration="3277000" />
+      <workItem from="1573953727233" duration="1916000" />
+      <workItem from="1573955693407" duration="14000" />
+      <workItem from="1574007473168" duration="5539000" />
+      <workItem from="1574536785756" duration="591000" />
+      <workItem from="1574550792195" duration="2768000" />
+      <workItem from="1574610510393" duration="10862000" />
+      <workItem from="1574734338448" duration="930000" />
+      <workItem from="1575054442571" duration="6554000" />
+      <workItem from="1575075388866" duration="4591000" />
+      <workItem from="1575733553095" duration="10633000" />
+      <workItem from="1575749535253" duration="2410000" />
+      <workItem from="1575825342795" duration="638000" />
+      <workItem from="1575852080945" duration="215000" />
+      <workItem from="1575909429772" duration="10811000" />
+      <workItem from="1576277854659" duration="5835000" />
+      <workItem from="1576340066257" duration="18221000" />
+      <workItem from="1576374382857" duration="3343000" />
+      <workItem from="1576378072755" duration="639000" />
+      <workItem from="1576886538585" duration="124000" />
+      <workItem from="1577306946156" duration="1289000" />
+      <workItem from="1577309870369" duration="212000" />
+      <workItem from="1577492107793" duration="5601000" />
+      <workItem from="1577554833713" duration="8446000" />
+      <workItem from="1577637673301" duration="7105000" />
+      <workItem from="1577736205371" duration="9451000" />
+      <workItem from="1577754709699" duration="1730000" />
+      <workItem from="1579708642514" duration="781000" />
+      <workItem from="1580775107098" duration="774000" />
+      <workItem from="1581789146388" duration="8257000" />
+      <workItem from="1581953735409" duration="15288000" />
+      <workItem from="1582770892256" duration="55000" />
+      <workItem from="1582993753380" duration="5170000" />
+      <workItem from="1583773026856" duration="6185000" />
+      <workItem from="1583955143810" duration="6436000" />
+      <workItem from="1584030831705" duration="7789000" />
+      <workItem from="1584121941038" duration="5891000" />
+      <workItem from="1584128036404" duration="3333000" />
+      <workItem from="1584207487415" duration="9529000" />
+      <workItem from="1584292024211" duration="3509000" />
+      <workItem from="1584543761953" duration="6607000" />
+      <workItem from="1584632428195" duration="3303000" />
+      <workItem from="1584905799059" duration="442000" />
+      <workItem from="1584975344805" duration="8587000" />
+      <workItem from="1585147832671" duration="8176000" />
+      <workItem from="1586625307687" duration="599000" />
+      <workItem from="1586643917278" duration="599000" />
+      <workItem from="1586712056458" duration="599000" />
+      <workItem from="1586794663604" duration="8544000" />
+      <workItem from="1586806028874" duration="224000" />
+      <workItem from="1586806436572" duration="1301000" />
+      <workItem from="1587221470887" duration="9752000" />
+      <workItem from="1587322457740" duration="4455000" />
+      <workItem from="1587493538997" duration="907000" />
+      <workItem from="1587593888248" duration="47000" />
+      <workItem from="1587826986930" duration="3265000" />
+      <workItem from="1587922387877" duration="7364000" />
+      <workItem from="1588125603165" duration="52000" />
+      <workItem from="1588269671552" duration="4167000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="327165000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27025586" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.1928494" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/features/activities/form/ActivityForm.tsx</url>
+          <line>72</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/features/activities/details/ActivityDetailedChat.tsx</url>
+          <line>53</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/features/activities/details/ActivityDetailedChat.tsx</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/features/activities/details/ActivityDetailedChat.tsx</url>
+          <line>22</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/layout/ScrollToTop.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/activities/dashboard/ActivityListItem.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/nav/NavBar.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-dropzone/typings/react-dropzone.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/cropperjs/dist/cropper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-cropper/dist/react-cropper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="161" column="20" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/photoUpload/PhotoWidgetCropper.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings-custom/react-cropper.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#37#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Interfaces/user.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/photoUpload/PhotoWidgetDropZone.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Profiles/Panes/AboutPaneEditFalse.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/photoUpload/PhotoUploadWidget.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Profiles/Panes/PhotosPane.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Profiles/Panes/AboutPaneEditTrue.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/activities/details/ActivityDetails.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/activities/details/ActivityDetailedSidebar.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="58" column="109" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Profiles/Panes/AboutPane.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="133" column="2" selection-start-line="133" selection-start-column="2" selection-end-line="133" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="606" column="108" selection-start-line="606" selection-start-column="108" selection-end-line="606" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Profiles/ProfileHeader.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="64" column="90" selection-start-line="64" selection-start-column="90" selection-end-line="64" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Interfaces/attendee.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Interfaces/profile.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/activities/details/ActivityDetailedInfo.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/activities/details/ActivityDetailedHeader.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Profiles/ProfilePage.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/activities/dashboard/ActivityList.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.collection.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/activities/dashboard/ActivityFilters.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Profiles/ProfileFollowings.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="22" selection-start-line="10" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Interfaces/activity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Interfaces/userActivity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Profiles/ProfileContent.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Profiles/ProfileCard.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Profiles/Panes/ActivitiesPane.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/stores/rootStore.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/activities/dashboard/ActivityListItemPlaceholder.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/activities/details/ActivityDetailedChat.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/activities/dashboard/ActivityDashboard.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/stores/modalStore.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/stores/commonStore.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/layout/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/api/agent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/layout/PrivateRoute.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/stores/userStore.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/activities/form/ActivityForm.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/stores/activityStore.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
