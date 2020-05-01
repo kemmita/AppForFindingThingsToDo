@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/app/stores/userStore.ts" line="215" />
+    <bookmark url="file://$PROJECT_DIR$/src/app/stores/userStore.ts" line="229" />
     <bookmark url="file://$PROJECT_DIR$/src/features/Profiles/Panes/PhotosPane.tsx" line="37" />
   </component>
   <component name="ChangeListManager">
@@ -60,6 +60,8 @@
       <change afterPath="$PROJECT_DIR$/src/features/nav/NavBar.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/features/user/LoginForm.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/features/user/RegisterForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/user/SocialLogin.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typings-custom/facebook-login-render-props.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/typings-custom/react-cropper.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/typings-custom/react-widgets-date-fns.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -82,22 +84,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/stores/activityStore.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/api/agent.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+            <state relative-caret-position="232">
+              <caret line="54" column="111" selection-start-line="54" selection-start-column="111" selection-end-line="54" selection-end-column="111" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -106,46 +96,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/layout/App.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="43" column="41" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/layout/PrivateRoute.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/stores/userStore.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/activities/form/ActivityForm.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="552">
+              <caret line="108" column="58" lean-forward="true" selection-start-line="108" selection-start-column="58" selection-end-line="108" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -157,15 +111,13 @@
       <list>
         <option value="XSLT Stylesheet" />
         <option value="React TypeScript Functional Component" />
-        <option value="TypeScript File" />
         <option value="Mobx TS" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>types</find>
-      <find>@types/react-cropper</find>
       <find>cropper</find>
       <find>get</find>
       <find>getCropp</find>
@@ -194,6 +146,8 @@
       <find>isLoggedIn</find>
       <find>time.</find>
       <find>isL</find>
+      <find>login</find>
+      <find>sleep</find>
     </findStrings>
     <replaceStrings>
       <replace>TextAreaInput</replace>
@@ -212,8 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/src/app/Interfaces/user.ts" />
         <option value="$PROJECT_DIR$/src/app/stores/commonStore.ts" />
         <option value="$PROJECT_DIR$/src/index.tsx" />
         <option value="$PROJECT_DIR$/src/app/stores/rootStore.ts" />
@@ -222,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/app/common/form/Errormessage.tsx" />
         <option value="$PROJECT_DIR$/src/app/common/form/ErrorMessage.tsx" />
         <option value="$PROJECT_DIR$/src/features/home/HomePage.tsx" />
-        <option value="$PROJECT_DIR$/src/features/user/LoginForm.tsx" />
         <option value="$PROJECT_DIR$/src/features/activities/dashboard/ActivityList.tsx" />
         <option value="$PROJECT_DIR$/src/app/Interfaces/At.ts" />
         <option value="$PROJECT_DIR$/src/features/user/RegisterForm.tsx" />
@@ -254,15 +205,18 @@
         <option value="$PROJECT_DIR$/src/app/Interfaces/userActivity.ts" />
         <option value="$PROJECT_DIR$/src/features/Profiles/ProfileContent.tsx" />
         <option value="$PROJECT_DIR$/src/features/Profiles/Panes/ActivitiesPane.tsx" />
-        <option value="$PROJECT_DIR$/src/app/stores/userStore.ts" />
         <option value="$PROJECT_DIR$/src/features/activities/dashboard/ActivityListItemPlaceholder.tsx" />
         <option value="$PROJECT_DIR$/src/features/activities/dashboard/ActivityDashboard.tsx" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/app/layout/PrivateRoute.tsx" />
-        <option value="$PROJECT_DIR$/src/app/api/agent.ts" />
         <option value="$PROJECT_DIR$/src/app/layout/App.tsx" />
         <option value="$PROJECT_DIR$/src/features/activities/form/ActivityForm.tsx" />
         <option value="$PROJECT_DIR$/src/app/stores/activityStore.ts" />
+        <option value="$PROJECT_DIR$/src/features/user/LoginForm.tsx" />
+        <option value="$PROJECT_DIR$/typings-custom/facebook-login-render-props.d.ts" />
+        <option value="$PROJECT_DIR$/src/features/user/SocialLogin.tsx" />
+        <option value="$PROJECT_DIR$/src/app/stores/userStore.ts" />
+        <option value="$PROJECT_DIR$/src/app/api/agent.ts" />
       </list>
     </option>
   </component>
@@ -276,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="307" />
     <option name="y" value="-8" />
     <option name="width" value="996" />
@@ -337,6 +291,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="stores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="client" type="b2602c69:ProjectViewProjectNode" />
@@ -475,11 +442,12 @@
       <workItem from="1587922387877" duration="7364000" />
       <workItem from="1588125603165" duration="52000" />
       <workItem from="1588269671552" duration="4167000" />
+      <workItem from="1588342815984" duration="4880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="327165000" />
+    <option name="totallyTimeSpent" value="332045000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,7 +461,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27025586" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2595949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -546,29 +514,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/layout/ScrollToTop.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/activities/dashboard/ActivityListItem.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -929,9 +874,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/stores/activityStore.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1907">
+          <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/layout/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="594">
           <caret line="43" column="41" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="41" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
@@ -939,20 +891,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/api/agent.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/layout/PrivateRoute.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        <state relative-caret-position="396">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/layout/PrivateRoute.tsx">
+    <entry file="file://$PROJECT_DIR$/src/features/activities/form/ActivityForm.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="968">
+          <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings-custom/facebook-login-render-props.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="69" selection-start-column="69" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/user/LoginForm.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/user/SocialLogin.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -961,27 +937,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/stores/userStore.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+        <state relative-caret-position="552">
+          <caret line="108" column="58" lean-forward="true" selection-start-line="108" selection-start-column="58" selection-end-line="108" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/activities/form/ActivityForm.tsx">
+    <entry file="file://$PROJECT_DIR$/src/app/api/agent.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+        <state relative-caret-position="232">
+          <caret line="54" column="111" selection-start-line="54" selection-start-column="111" selection-end-line="54" selection-end-column="111" />
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/stores/activityStore.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>

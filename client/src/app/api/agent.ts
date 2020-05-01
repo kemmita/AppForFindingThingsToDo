@@ -49,21 +49,10 @@ const requests = {
             headers: {'Content-type': 'multipart/form-data'}
         }).then(responseBody)
     },
-    delete: (url: string, username: string) =>{
-        return axios.delete(url,{
-            method: 'DELETE',
-            url: url,
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            data: username
-        }).then(responseBody)
-    }
-
 };
 
 const Activities = {
-    list: (params: URLSearchParams): Promise<IActivitiesEnvelope> => axios.get('/activities', {params: params}).then(sleep(100)).then(responseBody),
+    list: (params: URLSearchParams): Promise<IActivitiesEnvelope> => axios.get('/activities', {params: params}).then(responseBody),
     details: (id: string) => requests.get(`/activities/${id}`),
     create: (activity: IActivity) => requests.post('/activities', activity),
     update: (activity: IActivity) => requests.put(`/activities/${activity.id}`, activity),
@@ -76,6 +65,7 @@ const User = {
   current: (): Promise<IUser> => requests.get('/user'),
   login: (user: IUserFormValues): Promise<IUser> => requests.post('/user/login', user),
   register: (user: IUserFormValues): Promise<IUser> => requests.post('/user/register', user),
+  fbLogin: (accessToken: string) => requests.post(`/user/External/login`, {accessToken}),
   getProfileData: (username: string): Promise<IProfile> => requests.get(`/user/profile/${username}`),
   updateProfileData: (profile: IProfile) => requests.put(`/user`, profile),
   uploadPhoto: (photo: Blob): Promise<IPhoto> => requests.postForm('/photos', photo),

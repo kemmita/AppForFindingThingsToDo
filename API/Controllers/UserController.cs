@@ -27,6 +27,13 @@ namespace API.Controllers
         }
 
         [AllowAnonymous]
+        [HttpPost("External/login")]
+        public async Task<ActionResult<User>> ExternalLogin(ExternalLogin.Query query)
+        {
+            return await _mediator.Send(query);
+        }
+
+        [AllowAnonymous]
         [HttpPost("Register")]
         public async Task<ActionResult<User>> Register(Register.Command command)
         {

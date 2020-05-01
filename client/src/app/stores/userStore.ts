@@ -92,6 +92,20 @@ export default class UserStore
         }
     };
 
+    @action fbLogin = async (response: any) =>{
+        try {
+            const user = await agent.User.fbLogin(response.accessToken);
+            runInAction('Return user after successful login', () =>{
+                this.user = user;
+                this.rootStore.commonStore.setToken(user.token);
+                this.rootStore.modalStore.closeModal();
+                history.push('/activities');
+            });
+        } catch (e) {
+            console.log(e)
+        }
+    };
+
     @action register = async (values: IUserFormValues) =>{
         try {
             const user = await agent.User.register(values);

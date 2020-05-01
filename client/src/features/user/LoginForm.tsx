@@ -2,12 +2,13 @@ import React, {useContext} from 'react';
 import {observer} from "mobx-react-lite";
 import {RootStoreContext} from "../../app/stores/rootStore";
 import {Form as FinalForm, Field} from 'react-final-form';
-import {Button, Form, Header} from 'semantic-ui-react';
+import {Button, Divider, Form, Header} from 'semantic-ui-react';
 import TextInput from "../../app/common/form/TextInput";
 import {IUserFormValues} from "../../app/Interfaces/user";
 import {FORM_ERROR} from "final-form";
 import {combineValidators, isRequired} from "revalidate";
 import ErrorMessage from "../../app/common/form/ErrorMessage";
+import SocialLogin from "./SocialLogin";
 
 const validate = combineValidators({
    email: isRequired('email'),
@@ -31,6 +32,8 @@ const LoginForm: React.FC = (props) => {
                     {submitError && !dirtySinceLastSubmit && <ErrorMessage error={submitError.message} text={'Invalid email or password'}/>}
                     <br/>
                     <Button fluid disabled={invalid && !dirtySinceLastSubmit || pristine} style={{backgroundColor: '#1E6F9D', color: 'white'}} content='Login' loading={submitting}/>
+                    <Divider horizontal>Or</Divider>
+                    <SocialLogin fbCallback={userStore.fbLogin}/>
                 </Form>
             )}
         />
