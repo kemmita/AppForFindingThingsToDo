@@ -10,6 +10,7 @@
         "dependencies": {
           "Application": "1.0.0",
           "CloudinaryDotNet": "1.10.0",
+          "Mailjet.Api": "1.2.2",
           "Microsoft.IdentityModel.Tokens": "5.3.0.0",
           "System.IdentityModel.Tokens.Jwt": "5.3.0.0"
         },
@@ -104,6 +105,17 @@
           "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.6.0.0"
+          }
+        }
+      },
+      "Mailjet.Api/1.2.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Mailjet.Client.dll": {
+            "assemblyVersion": "1.2.2.0",
+            "fileVersion": "1.2.2.0"
           }
         }
       },
@@ -2004,6 +2016,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.1.1",
           "Domain": "1.0.0",
           "FluentValidation.AspNetCore": "8.6.0",
+          "Mailjet.Api": "1.2.2",
           "MediatR.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "Newtonsoft.Json": "12.0.3",
           "Persistence": "1.0.0"
@@ -2105,6 +2118,13 @@
       "sha512": "sha512-clWUgdzGuUes6xIyR28JtuwWpmBLVwspnEbWzGCocF02ytxYBq5Bn1cCh96HaVqM4mBUHuE64MJaaZH7NUnHnQ==",
       "path": "fluentvalidation.dependencyinjectionextensions/8.6.0",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.8.6.0.nupkg.sha512"
+    },
+    "Mailjet.Api/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zk52jjgFqdLmKFo1NAkMd0tSxdPK0MI4CTgwgzl7bAyCLnyYeurYcGLrjtISTAp4aM73hs7XuLTfDzDYYpO1Mw==",
+      "path": "mailjet.api/1.2.2",
+      "hashPath": "mailjet.api.1.2.2.nupkg.sha512"
     },
     "MediatR/7.0.0": {
       "type": "package",

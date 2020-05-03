@@ -1,14 +1,21 @@
-import React, {Fragment, useContext} from 'react';
+import React, {Fragment, useContext, useEffect} from 'react';
 import {Container} from "semantic-ui-react";
 import {Link} from "react-router-dom";
 import {Button, Segment, Image, Header} from "semantic-ui-react";
 import {RootStoreContext} from "../../app/stores/rootStore";
 import LoginForm from "../user/LoginForm";
 import RegisterForm from "../user/RegisterForm";
+import {observer} from "mobx-react-lite";
 
 const HomePage: React.FC = () => {
     const rootStore = useContext(RootStoreContext);
     const{userStore, modalStore} = rootStore;
+
+    useEffect (() =>{
+        if (userStore.registerComplete) {
+            modalStore.openModal(<LoginForm />)
+        }
+    }, );
 
     return (
         <Segment inverted textAlign='center' vertical className='masthead' >
@@ -39,4 +46,4 @@ const HomePage: React.FC = () => {
     );
 };
 
-export default HomePage;
+export default observer(HomePage);

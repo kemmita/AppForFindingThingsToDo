@@ -27,7 +27,7 @@ axios.interceptors.response.use(undefined, error => {
         toast.error('Server error - check the terminal for more info!')
     }
     if (status === 401) {
-        toast.error('Pleas login again to continue browsing!')
+        toast.error('Pleas confirm your email address!')
     }
     throw error;
 });

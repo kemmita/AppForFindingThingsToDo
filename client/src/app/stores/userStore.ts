@@ -46,6 +46,9 @@ export default class UserStore
 
     @observable userActivities: IUserActivity[] = [];
 
+    @observable registerComplete: boolean = false;
+
+
     @computed get isLoggedIn() {return !!this.user};
 
     @computed get isCurrentUser() {
@@ -108,12 +111,13 @@ export default class UserStore
 
     @action register = async (values: IUserFormValues) =>{
         try {
-            const user = await agent.User.register(values);
+            await agent.User.register(values);
             runInAction('Register user success', () =>{
-                this.user = user;
-                this.rootStore.commonStore.setToken(user.token);
-                this.rootStore.modalStore.closeModal();
-                history.push('/activities');
+                // this.user = user;
+                // this.rootStore.commonStore.setToken(user.token);
+                // this.rootStore.modalStore.closeModal();
+                this.registerComplete = true;
+                history.push('/');
             });
         }catch (e) {
             runInAction('Error with user Registration', () =>{

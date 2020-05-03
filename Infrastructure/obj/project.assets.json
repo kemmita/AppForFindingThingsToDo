@@ -100,6 +100,19 @@
           "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
+      "Mailjet.Api/1.2.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Mailjet.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Mailjet.Client.dll": {}
+        }
+      },
       "MediatR/7.0.0": {
         "type": "package",
         "compile": {
@@ -3059,6 +3072,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.1.1",
           "Domain": "1.0.0",
           "FluentValidation.AspNetCore": "8.6.0",
+          "Mailjet.Api": "1.2.2",
           "MediatR.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "Newtonsoft.Json": "12.0.3",
           "Persistence": "1.0.0"
@@ -3224,6 +3238,19 @@
         "fluentvalidation.dependencyinjectionextensions.nuspec",
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "Mailjet.Api/1.2.2": {
+      "sha512": "zk52jjgFqdLmKFo1NAkMd0tSxdPK0MI4CTgwgzl7bAyCLnyYeurYcGLrjtISTAp4aM73hs7XuLTfDzDYYpO1Mw==",
+      "type": "package",
+      "path": "mailjet.api/1.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Mailjet.Client.dll",
+        "lib/netstandard1.1/Mailjet.Client.dll",
+        "mailjet.api.1.2.2.nupkg.sha512",
+        "mailjet.api.nuspec"
       ]
     },
     "MediatR/7.0.0": {
@@ -9194,6 +9221,7 @@
     ".NETCoreApp,Version=v2.2": [
       "Application >= 1.0.0",
       "CloudinaryDotNet >= 1.10.0",
+      "Mailjet.Api >= 1.2.2",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -9248,6 +9276,10 @@
           "CloudinaryDotNet": {
             "target": "Package",
             "version": "[1.10.0, )"
+          },
+          "Mailjet.Api": {
+            "target": "Package",
+            "version": "[1.2.2, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",

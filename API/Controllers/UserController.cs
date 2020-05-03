@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Application.Interfaces;
 using Application.Profiles;
@@ -63,6 +64,15 @@ namespace API.Controllers
         public async Task<ActionResult<Unit>> UpdateProfile(UpdateProfile.Command command)
         {
             return await _mediator.Send(command);
+        }
+
+        [AllowAnonymous]
+        [HttpGet("confirmEmail")]
+        public async Task<ActionResult<Unit>> ConfirmEmail([FromQuery]ConfirmEmail.Command command)
+        {
+            await _mediator.Send(command);
+
+            return Redirect("http://localhost:3000");
         }
     }
 }

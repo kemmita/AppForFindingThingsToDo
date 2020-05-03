@@ -7,6 +7,7 @@ using API.SignalR;
 using Application.Activities;
 using Application.Interfaces;
 using Application.Profiles;
+using Application.User;
 using AutoMapper;
 using Domain;
 using FluentValidation.AspNetCore;
@@ -64,8 +65,12 @@ namespace API
                 {
                     cfg.RegisterValidatorsFromAssemblyContaining<CreateActivity>();
                 });
-            var builder = services.AddIdentityCore<AppUser>();
+            var builder = services.AddIdentityCore<AppUser>().AddDefaultTokenProviders();
             var identityBuilder = new IdentityBuilder(builder.UserType, builder.Services);
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.SignIn.RequireConfirmedEmail = true;
+            });
             identityBuilder.AddEntityFrameworkStores<ApplicationDbContext>();
             identityBuilder.AddSignInManager<SignInManager<AppUser>>();
             services.AddAuthorization(opt =>
@@ -107,8 +112,10 @@ namespace API
             services.AddScoped<IPhotoAccessor, PhotoAccessor>();
             services.AddScoped<IProfileReader, ProfileReader>();
             services.AddScoped<IFacebookAccessor, FacebookAccessor>();
+            services.AddScoped<IEmailSender, EmailSender>();
             services.Configure<CloudinarySettings>(Configuration.GetSection("Cloudinary"));
             services.Configure<FacebookAppSettings>(Configuration.GetSection("FacebookAuth"));
+            services.Configure<SmtpOptions>(Configuration.GetSection("Smtp"));
         }
 
 

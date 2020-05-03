@@ -1,14 +1,18 @@
 ﻿using System;
 using System.Linq;
 using System.Net;
+using System.Security.Policy;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Web;
 using Application.Activities;
 using Application.Errors;
 using Application.Interfaces;
 using Domain;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 
@@ -28,11 +32,13 @@ namespace Application.User
             private readonly ApplicationDbContext _db;
             private readonly UserManager<AppUser> _userManager;
             private readonly IJwtGenerator _jwtGenerator;
-            public Handler(ApplicationDbContext db, UserManager<AppUser> userManager, IJwtGenerator jwtGenerator)
+            private readonly IEmailSender _emailSender;
+            public Handler(ApplicationDbContext db, UserManager<AppUser> userManager, IJwtGenerator jwtGenerator, IEmailSender emailSender)
             {
                 _db = db;
                 _userManager = userManager;
                 _jwtGenerator = jwtGenerator;
+                _emailSender = emailSender;
             }
 
             public async Task<User> Handle(Command request, CancellationToken cancellationToken)
@@ -58,13 +64,21 @@ namespace Application.User
 
                 if (results.Succeeded)
                 {
+                    user = await _userManager.FindByNameAsync(user.UserName);
+
+                    var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+
+                    var confirmatrionLink = new Uri($"https://localhost:44396/api/user/confirmEmail?userId={user.Id}&token={HttpUtility.UrlEncode(token)}");
+
+                    await _emailSender.SendEmailAsync("russellkemmitdeveloper@gmail.com", user.Email, "Kemmittech Email Confirmation", $"Please confirm your account, by selecting this link: {confirmatrionLink}");
+
                     return new User
                     {
                         DisplayName = user.DisplayName,
                         Token = _jwtGenerator.CreateToken(user),
                         Username = user.UserName,
                         Image = user.Photos.FirstOrDefault(p => p.IsMainPhoto)?.Url
-                    };
+                     };                                                                                                                                                                                                                                                       
                 }
 
                 throw new Exception("Problem registering user.");

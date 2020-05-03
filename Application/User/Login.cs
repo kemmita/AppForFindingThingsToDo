@@ -43,6 +43,11 @@ namespace Application.User
 
                 var result = await _signInManager.CheckPasswordSignInAsync(user, request.Password, false);
 
+                var emailConfirmed = await _userManager.IsEmailConfirmedAsync(user);
+
+                if (!emailConfirmed)
+                    throw new RestException(HttpStatusCode.Unauthorized, new { Email = "You must confirm your email" });
+
                 if (result.Succeeded)
                 {
                     // Return Token
